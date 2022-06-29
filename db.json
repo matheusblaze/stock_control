@@ -1,0 +1,74 @@
+{
+  "product": [
+    {
+      "name": "Capivara M",
+      "qtd": "0",
+      "weight": "21",
+      "id": 1
+    },
+    {
+      "name": "Capivara G",
+      "qtd": "4",
+      "weight": "36",
+      "id": 2
+    },
+    {
+      "name": "Capivara P",
+      "qtd": "2",
+      "weight": "6",
+      "id": 3
+    },
+    {
+      "name": "Stumble Guy (básico)",
+      "qtd": "55",
+      "weight": "5",
+      "id": 4
+    },
+    {
+      "name": "Stumble Guy (especial)",
+      "qtd": "15",
+      "weight": "5",
+      "id": 5
+    }
+  ],
+  "operator": [
+    {
+      "name": "Matheus",
+      "email": "matheuschipanski@hotmail.com",
+      "id": 1
+    },
+    {
+      "name": "Everton",
+      "qtd": "emaildoeverton@algumemail.com",
+      "id": 2
+    }
+  ],
+  "client": [
+    {
+      "name": "Matheus",
+      "email": "matheuschipanski@hotmail.com",
+      "id": 1
+    },
+    {
+      "name": "Everton",
+      "qtd": "emaildoeverton@algumemail.com",
+      "id": 2
+    }
+  ],
+  "task": [
+    {
+      "name": "Capivaras M infinitas",
+      "client": "Everton",
+      "products": [],
+      "due_date": "",
+      "id": 1
+    },
+    {
+      "name": "Capivaras G infinitas",
+      "client": "Everton",
+      "products": [],
+      "due_date": "",
+      "id": 2
+    }
+  ]
+}

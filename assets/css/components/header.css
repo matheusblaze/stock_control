@@ -1,0 +1,38 @@
+
+.header {
+    background-image: url(/assets/img/padrão\ 2.png);
+    background-size: 100%;
+    background-position: 100px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    margin-bottom: 2rem;
+}
+
+.header__logo {
+    width: 10rem;
+}
+
+.header__navigation-list {
+    display: flex;
+}
+
+.header__link {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    margin-left: 3rem;
+} 
+
+.header__link:hover {
+    font-size: 1.5rem;
+    text-shadow:crimson 3px 3px 3px;
+    font-weight: 800;
+}
+
+.active{
+    color:crimson;
+}

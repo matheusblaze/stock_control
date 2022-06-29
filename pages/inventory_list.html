@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroCosmos3D | Estoque</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/components/header.css">
+    <link rel="stylesheet" href="../assets/css/inventory_list.css">
+    <link rel="stylesheet" href="../assets/css/components/table.css">
+    <link rel="stylesheet" href="../assets/css/components/button.css">
+    <link rel="stylesheet" href="../assets/css/components/modal.css">
+    <link rel="stylesheet" href="../assets/css/components/footer.css">
+</head>
+<body>
+    <header class="header container">
+        <img src="../assets/img/logo 7.png" alt="Logotipo MicroCosmos3D" class="header__logo">
+        <nav>
+            <ul class="header__navigation-list">
+                <li class="header__link"><a href="#">Pedidos</a></li>
+                <li class="header__link active"><a href="#">Estoque</a></li>
+                <li class="header__link"><a href="#">Linha de Produção</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="inventory-container flex--column flex--center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="table__column--m">Produto</th>
+                    <th class="table__column--p">Quantidade</th>
+                    <th class="table__column--p">Peso(g)</th>
+                    <th class="table__column--m table__alignament--right"><a href="./register_product.html" class="button-simple button-simple--add">Novo Produto</a></th>
+                </tr>
+            </thead>
+            <tbody data-table>
+                
+            </tbody>
+        </table>
+        <div class="modal-container modal--closed">
+            <article class="modal">
+                <h2 class="modal__tittle">
+                    Excluir
+                </h2>
+                <button class="modal__delete">X</button>
+                <p class="modal__text">Deseja excluir essa entrada?</p>
+                <div class="modal__button-container">
+                    <button class="modal__button modal__button--confirm">Excluir</button>
+                    <button class="modal__button">Não excluir</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="footer container">
+        <img src="../assets/img/logo 8.png" class="footer__logo">
+        <p class="footer__copyright">&copy; Copyright MicrocosmosBG - 2022<br>   Matheus Antunes Chipanski</p>
+    </footer>
+    <script type="module" src="../controller/listInventory-controller.js"></script>
+</body> 
+
+
+</html>
+

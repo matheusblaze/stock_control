@@ -1,0 +1,26 @@
+.footer {
+    background-image: url(/assets/img/padrão\ 2.png);
+    background-size: 100%;
+    background-position: 100px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+}
+
+.footer__logo {
+    width: 6rem;
+}
+
+.footer__navigation-list {
+    display: flex;
+}
+
+.footer__copyright {
+    font-size: 0.75rem;
+    color: black;
+    font-weight: 600;
+    margin-left: 3rem;
+} 
